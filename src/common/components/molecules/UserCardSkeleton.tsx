@@ -1,5 +1,6 @@
 import React from 'react';
 import {StyleSheet, View} from 'react-native';
+import {colors} from '../../theme';
 import {Divider} from '../atoms';
 
 export const UserCardSkeleton = () => {
@@ -39,19 +40,19 @@ const styles = StyleSheet.create({
     marginLeft: 16,
   },
   title: {
-    backgroundColor: '#DDD',
+    backgroundColor: colors.gray,
     height: 18,
     marginBottom: 4,
     width: 120,
   },
   body: {
-    backgroundColor: '#DDD',
+    backgroundColor: colors.gray,
     height: 16,
     marginBottom: 4,
     width: 200,
   },
   image: {
-    backgroundColor: '#DDD',
+    backgroundColor: colors.gray,
     borderRadius: 32,
     height: 64,
     width: 64,
